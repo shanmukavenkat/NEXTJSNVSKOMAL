@@ -139,12 +139,14 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <footer className="bg-black text-white py-9 -z-1">
+        <footer className="bg-black text-white py-9 -z-1 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
+          <div className="flex flex-col sm:flex-row items-center lg:items-end justify-between space-y-4 sm:space-y-0">
             
+
             {/* Social Icons */}
-            <div className="flex space-x-6">
+
+            <div className="flex space-x-6 sm:hidden ">
               <a href="https://github.com/shanmukavenkat/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <Github className="w-6 h-6" />
               </a>
@@ -164,7 +166,7 @@ export default function Home() {
             </div>
 
             {/* Footer Text */}
-            <div className="text-gray-400 text-center sm:text-right">
+            <div className="text-gray-400 text-center sm:text-right sm:ml-auto">
               ⏳ Time waits for no one, make every second count 🚀
             </div>
 
