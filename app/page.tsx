@@ -73,9 +73,6 @@ export default function Home() {
           <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
             Contact
           </a>
-          <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
-            About this site 
-          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -95,9 +92,6 @@ export default function Home() {
           </a>
           <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
             Contact
-          </a>
-          <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
-          About this site 
           </a>
         </div>
       )}
