@@ -7,7 +7,7 @@ import {
   IconFileInvoice,
   IconFolderCode,
 } from "@tabler/icons-react";
-import Instagram from "@/components/ui//Instagram";
+import Instagram from "@/components/ui/ClickSpark/scroll_icons/Instagram";
 export function FloatingDockDemo() {
   const links = [
     {

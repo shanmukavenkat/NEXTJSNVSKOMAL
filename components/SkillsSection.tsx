@@ -2,30 +2,47 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { FaReact, FaNodeJs, FaCss3Alt, FaDatabase, FaJsSquare, FaFigma } from "react-icons/fa";
-import { SiHuggingface, SiAdobexd, SiAdobephotoshop, SiMysql, SiMongodb, SiTailwindcss } from "react-icons/si";
-import { FaGithub, FaPython, FaHtml5, FaBootstrap } from "react-icons/fa6";
-import { ChartNoAxesColumnIncreasing } from "lucide-react";
+import SQLite from "@/components/ui/ClickSpark/scroll_icons/sql";
+import Nodejs from "@/components/ui/ClickSpark/scroll_icons/nodejs";
+import HTML5 from "@/components/ui/ClickSpark/scroll_icons/html";
+import XD from "@/components/ui/ClickSpark/scroll_icons/xd";
+import TailwindCSS from "@/components/ui/ClickSpark/scroll_icons/tailwindcss";
+import  Bootstrap  from "@/components/ui/ClickSpark/scroll_icons/bootstrap";
+import  ReactJS  from "@/components/ui/ClickSpark/scroll_icons/newreactjs";
+import  Javascript  from "@/components/ui/ClickSpark/scroll_icons/javascript";
+import  CSS3  from "@/components/ui/ClickSpark/scroll_icons/css";
+import  MongoDB  from "@/components/ui/ClickSpark/scroll_icons/mongoDb";
+import  GitHub  from "@/components/ui/ClickSpark/scroll_icons/github";
+import  Figma  from "@/components/ui/ClickSpark/scroll_icons/figma";
+import  MySQL  from "@/components/ui/ClickSpark/scroll_icons/mysql";
+import  HuggingFace  from "@/components/ui/ClickSpark/scroll_icons/huggingFace";
+import TypeScript from "./ui/ClickSpark/scroll_icons/typescript";
+import { Python } from "./ui/ClickSpark/scroll_icons/python";
+import { Powerbi } from "./ui/ClickSpark/scroll_icons/powerBi";
+
+
+
 
 // Skill icons list
 const skills = [
-  { icon: <FaReact size={40} color="#61DAFB" /> },
-  { icon: <FaJsSquare size={40} color="#F7DF1E" /> },
-  { icon: <FaPython size={40} color="#306998" /> },
-  { icon: <FaNodeJs size={40} color="#68A063" /> },
-  { icon: <FaHtml5 size={40} color="#E34F26" /> },
-  { icon: <FaCss3Alt size={40} color="#2965F1" /> },
-  { icon: <SiTailwindcss size={40} color="#06B6D4" /> },
-  { icon: <FaBootstrap size={40} color="#7952B3" /> },
-  { icon: <FaDatabase size={40} color="#4DB33D" /> },
-  { icon: <SiMysql size={50} color="#00758F" /> },
-  { icon: <SiMongodb size={40} color="#4DB33D" /> },
-  { icon: <SiHuggingface size={40} color="#000000" className="bg-[#FFD21E] rounded-full" /> },
-  { icon: <FaGithub size={40} color="#ffffff" /> },
-  { icon: <ChartNoAxesColumnIncreasing size={40} color="#FFD21E" /> },
-  { icon: <FaFigma size={40} color="#F24E1E" /> },
-  { icon: <SiAdobexd size={40} color="#f73fc2" /> },
-  { icon: <SiAdobephotoshop size={40} color="#31a8ff" /> },
+  { icon: <ReactJS width={40} height={40} /> },
+  { icon: <Javascript width={40} height={40} /> },
+  { icon: <HTML5 width={40} height={40} /> },
+  { icon: <CSS3 width={40} height={40} /> },
+  { icon: <Nodejs width={40} height={40} /> },
+  { icon: <SQLite width={40} height={40} /> },
+  { icon: <MySQL width={40} height={40} /> },
+  { icon: <MongoDB width={40} height={40} /> },
+  { icon: <GitHub width={40} height={40} /> },
+  { icon: <Bootstrap width={40} height={40} /> },
+  { icon: <Figma width={40} height={40} /> },
+  { icon: <XD width={40} height={40} /> },
+  { icon: <HuggingFace width={40} height={40} /> },
+  { icon: <TailwindCSS width={40} height={40} /> },
+  { icon:<TypeScript width={40} height={40}/>},
+  { icon:<Python width={40} height={40}/>},
+  { icon:<Powerbi width={40} height={40}/>},
+
 ];
 
 // Duplicate the skills list for smooth infinite scrolling
@@ -35,7 +52,7 @@ export function SkillsSection() {
   const [isPaused, setIsPaused] = useState(false);
   
   return (
-    <section id="skills" className="py-20 bg-black text-white overflow-hidden relative">
+    <section id="skills" className="py-20 text-white overflow-hidden relative">
       {/* Left & Right Gradient Fades for Smooth Visibility */}
       <div className="absolute top-0 left-0 w-10 md:w-20 h-full bg-gradient-to-r from-black via-transparent to-transparent z-10 pointer-events-none" />
       <div className="absolute top-0 right-0 w-10 md:w-20 h-full bg-gradient-to-l from-black via-transparent to-transparent z-10 pointer-events-none" />

@@ -7,7 +7,12 @@ import Money from "../media-src/Money.png";
 import FullMoney from "../media-src/FullMoney.png";
 import Ipl from "../media-src/Ipl.png";
 import ClickSpark from "@/components/ui/ClickSpark/ClickSpark";
-
+import Github_FileUploader from "../media-src/Github_FileUploader.png"
+import SPI from '../media-src/SPI.png'
+import Food from '../media-src/Food.png'
+import Grievance from '../media-src/Grievance.png'
+import MockUp from '../media-src/MockUp.png'
+import NxtTrenz from '../media-src/NxtTrenz.png'
 interface CardData {
   category: string;
   title: string;
@@ -44,28 +49,40 @@ const DummyContent: React.FC<DummyContentProps> = ({ link, src }) => {
 
 const data: CardData[] = [
   {
-    category: "Artificial Intelligence",
-    title: "You can do more with AI.",
-    src: "/images/ai-project.jpg",
-    content: <DummyContent link="https://your-ai-project.com" />,
+    category: "Nxt Trenz",
+    title: "Nxt Trenz Shopping app ",
+    src: NxtTrenz,
+    content: <DummyContent link="https://authensnvs.ccbp.tech/login" src={NxtTrenz} />,
   },
   {
-    category: "Productivity",
-    title: "Enhance your productivity.",
-    src: "/images/productivity.jpg",
-    content: <DummyContent link="https://your-productivity-tool.com" />,
+    category: "Authenticated 3D Mockup App ",
+    title: " Authenticated 3D Mockup App using three js and clerk authentication",
+    src: MockUp,
+    content: <DummyContent link="https://github.com/shanmukavenkat/threejs-app.git" src={MockUp} />,
   },
   {
-    category: "Product",
-    title: "Launching the new Apple Vision Pro.",
-    src: "/images/apple-vision.jpg",
-    content: <DummyContent link="https://your-apple-vision.com" />,
+    category: "Grievance-system-frontend",
+    title: "Created a user-friendly complaint reporting app, ensuring a seamless and productive experience",
+    src: Grievance,
+    content: <DummyContent link="https://your-ai-project.com" src={Grievance} />,
   },
   {
-    category: "Product",
-    title: "Maps for your iPhone 15 Pro Max.",
-    src: "/images/maps-iphone.jpg",
-    content: <DummyContent link="https://your-maps-project.com" />,
+    category: "FoodMunch",
+    title: "A responsive website that lets you browse through a wide range of food items with ease",
+    src: Food,
+    content: <DummyContent link="https://komalfoodmunchs.ccbp.tech/" src={Food} />,
+  },
+  {
+    category: "Student Performance Index",
+    title: "A platform for tracking and analyzing student performance data ",
+    src: SPI,
+    content: <DummyContent link="https://shanmukavenkat.github.io/SPI/" src={SPI} />,
+  },
+  {
+    category: "GitHub File Uploader",
+    title: "A user-friendly website for securely uploading files directly to private GitHub repositories",
+    src: Github_FileUploader,
+    content: <DummyContent link="https://snvs-pro.netlify.app/" src={Github_FileUploader} />,
   },
   {
     category: "IPL",

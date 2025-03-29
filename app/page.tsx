@@ -18,6 +18,8 @@ import Image from 'next/image';
 import editsImageOne from '../media-src/editsImageOne.png';
 import { BackgroundBeamsDemo } from '@/components/BackgroundBeamsDemo';
 import ClickSpark from "@/components/ui/ClickSpark/ClickSpark";
+import Link from "next/link";
+
 
 
 export default function Home() {
@@ -73,6 +75,9 @@ export default function Home() {
           <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
             Contact
           </a>
+          <Link href="/blog" className="text-gray-300 hover:text-white transition-colors">
+            Blog
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -93,6 +98,9 @@ export default function Home() {
           <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
             Contact
           </a>
+          <Link href="/blog" className="text-gray-300 hover:text-white transition-colors">
+            Blog
+          </Link>
         </div>
       )}
     </div>
