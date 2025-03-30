@@ -58,13 +58,13 @@ const data: CardData[] = [
     category: "Authenticated 3D Mockup App ",
     title: " Authenticated 3D Mockup App using three js and clerk authentication",
     src: MockUp,
-    content: <DummyContent link="https://github.com/shanmukavenkat/threejs-app.git" src={MockUp} />,
+    content: <DummyContent link="https://threejs-app-git-main-shanmukavenkats-projects.vercel.app/" src={MockUp} />,
   },
   {
     category: "Grievance-system-frontend",
     title: "Created a user-friendly complaint reporting app, ensuring a seamless and productive experience",
     src: Grievance,
-    content: <DummyContent link="https://your-ai-project.com" src={Grievance} />,
+    content: <DummyContent link="https://shanmukavenkat.github.io/greviance-sample/" src={Grievance} />,
   },
   {
     category: "FoodMunch",
