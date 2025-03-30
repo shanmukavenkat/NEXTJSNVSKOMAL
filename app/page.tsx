@@ -108,14 +108,13 @@ export default function Home() {
 
         {/* Hero Section */}
         <div className="relative w-full h-screen">
-          <SpotlightPreview
-            
-             
-          />
+          <SpotlightPreview/>
         </div>
        
         <SkillsSection />
         {/*Apple Card Carosuel effect*/}
+        
+        
         <AppleCardsCarouselDemo />
        {/*Apple Card Carosuel effect*/}
        {/* Only enable TracingBeam on screens larger than 'sm' */}
