@@ -130,9 +130,7 @@ export default function Home() {
       </div>
 
         <ProjectsSection />
-    
-       
-        
+              
         <BackgroundBeamsDemo />
 
         <div className='flex items-center justify-center'>
@@ -167,7 +165,7 @@ export default function Home() {
               <a href="mailto:shanmukavenkatkomal@gmail.com" className="hover:text-gray-400">
                 <MailIcon className="w-6 h-6" />
               </a>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+              <a href="https://drive.google.com/file/d/1oJMjuA-Kr7bCrUwk1RcCrjoaFq7VF4iD/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <FileText className="w-6 h-6" />
               </a>
             </div>

@@ -8,6 +8,7 @@ import {
   IconFolderCode,
 } from "@tabler/icons-react";
 import Instagram from "@/components/ui/ClickSpark/scroll_icons/Instagram";
+
 export function FloatingDockDemo() {
   const links = [
     {
@@ -30,7 +31,7 @@ export function FloatingDockDemo() {
       icon: (
         <IconFileInvoice className="h-full w-full text-blue-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://drive.google.com/file/d/1oJMjuA-Kr7bCrUwk1RcCrjoaFq7VF4iD/view?usp=sharing",
     },
     {
       title: "LinkedIn",
