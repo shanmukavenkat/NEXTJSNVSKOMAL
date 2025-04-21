@@ -13,7 +13,8 @@ import Food from '../media-src/Food.png'
 import Grievance from '../media-src/Grievance.png'
 import MockUp from '../media-src/MockUp.png'
 import NxtTrenz from '../media-src/NxtTrenz.png'
-import VegetablesandFruits from '../VegetablesandFruits.png'
+import Vegetables from '../media-src/Vegetables.png'
+
 interface CardData {
   category: string;
   title: string;
@@ -59,8 +60,8 @@ const data: CardData[] = [
   {
     category: "Vegetables and Fruits Shopping app",
     title: "Vegetables and Fruits Shopping app using Next.js",
-    src: VegetablesandFruits,
-    content: <DummyContent link="https://nextjsvegetableand-fruitsapp.vercel.app/" src={VegetablesandFruits} />,
+    src: Vegetables,
+    content: <DummyContent link="https://nextjsvegetableand-fruitsapp.vercel.app/" src={Vegetables} />,
   },
   {
     category: "Authenticated 3D Mockup App ",
