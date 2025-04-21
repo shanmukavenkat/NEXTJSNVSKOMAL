@@ -49,17 +49,18 @@ const DummyContent: React.FC<DummyContentProps> = ({ link, src }) => {
 };
 
 const data: CardData[] = [
-  {
-    category: "Vegetables and Fruits Shopping app",
-    title: "Vegetables and Fruits Shopping app using Next.js and Tailwind CSS with serverless functions",
-    src: VegetablesandFruits,
-    content: <DummyContent link="https://nextjsvegetableand-fruitsapp.vercel.app/" src={VegetablesandFruits} />,
-  },
+
   {
     category: "Nxt Trenz",
     title: "Nxt Trenz Shopping app ",
     src: NxtTrenz,
     content: <DummyContent link="https://authensnvs.ccbp.tech/login" src={NxtTrenz} />,
+  },
+  {
+    category: "Vegetables and Fruits Shopping app",
+    title: "Vegetables and Fruits Shopping app using Next.js",
+    src: VegetablesandFruits,
+    content: <DummyContent link="https://nextjsvegetableand-fruitsapp.vercel.app/" src={VegetablesandFruits} />,
   },
   {
     category: "Authenticated 3D Mockup App ",
