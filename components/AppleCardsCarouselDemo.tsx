@@ -13,6 +13,7 @@ import Food from '../media-src/Food.png'
 import Grievance from '../media-src/Grievance.png'
 import MockUp from '../media-src/MockUp.png'
 import NxtTrenz from '../media-src/NxtTrenz.png'
+import VegetablesandFruits from '../VegetablesandFruits.png'
 interface CardData {
   category: string;
   title: string;
@@ -48,6 +49,12 @@ const DummyContent: React.FC<DummyContentProps> = ({ link, src }) => {
 };
 
 const data: CardData[] = [
+  {
+    category: "Vegetables and Fruits Shopping app",
+    title: "Vegetables and Fruits Shopping app using Next.js and Tailwind CSS with serverless functions",
+    src: VegetablesandFruits,
+    content: <DummyContent link="https://nextjsvegetableand-fruitsapp.vercel.app/" src={VegetablesandFruits} />,
+  },
   {
     category: "Nxt Trenz",
     title: "Nxt Trenz Shopping app ",

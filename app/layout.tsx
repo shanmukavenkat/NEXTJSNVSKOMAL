@@ -27,7 +27,6 @@ export default function RootLayout({
       <head>
         <link rel="apple-touch-icon" href="/icon-snvs.png" />
         <link rel="icon" href="/icon-snvs.png" sizes="any" />
-  
         </head>
       <body className={inter.className}>{children}</body>
     </html>
