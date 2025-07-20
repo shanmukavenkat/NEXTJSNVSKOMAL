@@ -31,7 +31,7 @@ export function FloatingDockDemo() {
       icon: (
         <IconFileInvoice className="h-full w-full text-blue-500 dark:text-neutral-300" />
       ),
-      href: "https://drive.google.com/file/d/1oJMjuA-Kr7bCrUwk1RcCrjoaFq7VF4iD/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1ITb9lVqqWjGhS12iq4U4Yh7hKYFoBjUa/view?usp=sharing",
     },
     {
       title: "LinkedIn",

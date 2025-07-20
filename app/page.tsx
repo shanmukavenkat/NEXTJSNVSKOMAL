@@ -18,6 +18,8 @@ import Image from 'next/image';
 import editsImageOne from '../media-src/editsImageOne.png';
 import { BackgroundBeamsDemo } from '@/components/BackgroundBeamsDemo';
 import ClickSpark from "@/components/ui/ClickSpark/ClickSpark";
+
+
 import Link from "next/link";
 
 
@@ -142,6 +144,13 @@ export default function Home() {
         <div className='flex items-center justify-center'>
           <ImageMasking />
         </div>
+
+      {/* ID */}
+
+
+
+
+
 
         {/* Footer */}
         <footer className="bg-black text-white py-9 -z-1 ">
