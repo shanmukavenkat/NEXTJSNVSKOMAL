@@ -174,7 +174,7 @@ export default function Home() {
               <a href="mailto:shanmukavenkatkomal@gmail.com" className="hover:text-gray-400">
                 <MailIcon className="w-6 h-6" />
               </a>
-              <a href=" https://drive.google.com/file/d/1ITb9lVqqWjGhS12iq4U4Yh7hKYFoBjUa/view" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+              <a href="https://drive.google.com/file/d/1ITb9lVqqWjGhS12iq4U4Yh7hKYFoBjUa/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
                 <FileText className="w-6 h-6" />
               </a>
             </div>
